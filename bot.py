@@ -1,3 +1,5 @@
+"""Main bot file"""
+
 import telebot
 import config
 import messages
@@ -59,5 +61,3 @@ def genre_callback_query(call):
 
 if __name__ == '__main__':
     bot.polling(none_stop=True)
-
-'''Первоначальный вариант'''
